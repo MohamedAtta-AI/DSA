@@ -2,7 +2,7 @@
 
 # DP Solution
 # Time Complexity: O(n*m)
-# Time Complexity: O(n*m)
+# Space Complexity: O(n*m)
 def levenshtein_distance(s1: str, s2: str) -> int:
     # Init DP table
     cache = [[float("inf")] * (len(s2) + 1) for _ in range(len(s1) + 1)]
